@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <!--响应式标签 meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 引入Bootstrap核心样式文件（必须） -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!--自己的样式-->
+    <link rel="stylesheet" href="css/register.css">
+    <!--站点图片-->
+    <link href="img/jsjxh02.png" rel="shortcut icon">
+
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="js/keyboard.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+
+<!--*********输入框******************-->
+<div id="register">
+<div class="container ">
+<div class="box">
+    <form>
+    <div id="tittle"><h2 align="center">计算机协会成员登录</h2></div>
+    <p class="input_box">
+       学号： <input id="uname" type="text" placeholder="请输入你的学号...">
+    </p>
+    <p class="input_box ">
+        密码： <input id="upass" type="password" placeholder="请输入你的密码...">
+    </p>
+
+    <div id="error_box"><br></div>
+
+    <div class="button" ><button onclick="foLogin()">登 录</button></div>
+    </form>
+    </div>
+</div>
+</div>
+
+<!-- 输入学号，密码是否符合-->
+<script src="js/index.js"></script>
+<!--******键盘*************-->
+<div class="keyboard  hidden-xs hidden-sm ">
+</div>
+
+
+<!-- 引入所有的Bootstrap的JS插件 -->
+<!--<script src="lib/bootstrap/js/bootstrap.js"></script>-->
+</body>
+
+<!--*****引入音乐（巧敲键盘声）-->
+<script type="text/javascript">
+    $('input').focus();
+    $('.keyboard').keyboard({audio:'music/keydown.mp3'});
+</script>
+</html>

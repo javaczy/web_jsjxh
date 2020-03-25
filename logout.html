@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>注销</title>
+    <!--响应式标签 meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 引入Bootstrap核心样式文件（必须） -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+     <script src="lib/jquery/jquery.js"></script>
+    <!--站点图片-->
+    <link href="img/jsjxh02.png" rel="shortcut icon">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+     body{
+
+          background-color: darkkhaki;
+
+
+      }
+        #logout .container {
+            width: 42%;
+            height: 300px;
+            background-color: #b2dba1;
+            text-align: center  ;
+            padding-top: 60px;
+        }
+        #logout .container .box{
+            width: 100%;
+            height: 100px ;
+            /*background-color: #c7ddef;*/
+            margin-bottom: 30px;
+        }
+     #logout .container  .box>p {
+         color: #d43f3a;
+     }
+     #logout .container .button >button{
+         border: 2px skyblue solid;
+          font-size:22px;
+          font-family: "隶书";
+          width: 90px;
+         border-radius:5px
+     }
+        #logout .container .button >button:hover{
+            background-color: #c7ddef;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div id="logout">
+    <div class="container">
+        <div class="box">
+         <h4>确定注销吗？</h4><br>
+            <p>  : 注销后你将退出计算机协会，(也不再是计算机协会成员)，
+            你的个人信息也将在后台删除！
+       </p>
+
+        </div>
+        <div class="button">
+            <button>注 销</button>
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+    $(function (){
+        $("button").on("click",function () {
+            alert("成功退出！");
+        });
+        // alert(11)
+
+
+    });
+
+</script>
+
+<!--**************底部**************-->
+<script src="lib/jquery/jquery.js"></script>
+<!-- 引入所有的Bootstrap的JS插件 -->
+<!--<script src="lib/bootstrap/js/bootstrap.js"></script>-->
+
+</body>
+</html>
