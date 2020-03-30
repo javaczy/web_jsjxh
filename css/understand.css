@@ -20,6 +20,7 @@
     height: 400px;
 }
 /*<!--****************背景图片-end*****************-->*/
+/*<!--****************吸顶***********************-->*/
   .ceiling{
     width:100%;
     height:40px;
@@ -32,21 +33,20 @@
     padding: 5px;
 
 }
-.container .row{
-    position: relative;
+/*<!--****************吸顶***********************-->*/
+
+.container {
+    width:90%;
     z-index: -99;
-}
-.container .row .left{
-    background-color: #4cae4c;
-    width: 30%;
-    height: 300px;
-    padding-top: 40px;
-
 
 }
-.container .row .left img{
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    height: 100px;
+
+.container .row .media{
+    padding: 50px 10px 20px 10px ;
+    background: rgba(200,250,250,0.5);
+}
+.container .row .media p{
+    color: #3c3c3c;
+    font-family: "宋体";
+    font-size: 18px;
 }
