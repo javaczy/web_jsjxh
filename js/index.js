@@ -1,5 +1,4 @@
-
-//波浪动画
+// /*********波浪动画**********/
 $(function() {
     var marqueeScroll = function(id1, id2, id3, timer) {
         var $parent = $("#" + id1);
@@ -48,3 +47,24 @@ function foLogin() {
         return;
     }
 }
+/*********吸顶效果**********/
+$(function(){
+
+    var ceilingTop = $('.ceiling').offset().top;
+
+    $(document).on('scroll',function(){
+        if($(document).scrollTop() > ceilingTop){
+            $('.ceiling').css({
+                "position":"fixed",
+                "top":0,
+            })
+        }else{
+
+            $('.ceiling').css({
+                "position":"absolute",
+                "top":"557px",
+                "background-color":"#8c8c8c",
+            })
+        }
+    })
+})
