@@ -1,38 +1,5 @@
 /********************尾部 begin*****************/
 /*底部下*/
-#lk_ending .bottom{
-
-    padding-bottom: 70px;
-    margin-bottom: 1px;
-    background-color: #007aff;
-}
-#lk_ending .bottom .container{
-    /*background-color: #999999;*/
-    padding-top: 40px;
-    text-align: center;
-
-}
-#lk_ending .bottom .container .row .col-lg-3  p{
-    font-size: 18px;
-    font-weight: bolder;
-    padding-bottom: 10px;
-    color: #0f0f0f;
-
-}
-#lk_ending .bottom .container .row .attention>a{
-
-    padding: 10px;
-}
-#lk_ending .bottom .container .row .attention>a>img{
-    width: 30px;
-    height: 30px;
-    /*background-color: #ffffff;*/
-    cursor: pointer;
-    transition: all 0.6s;
-}
-#lk_ending .bottom .container .row .attention>a>img:hover {
-    transform: scale(1.4);
-}
 #lk_ending .footer-floor2{
     background-color: #007aff;
     padding-top: 15px;
