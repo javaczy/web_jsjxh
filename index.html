@@ -13,7 +13,7 @@
     <!-- 首页（index）的样式 -->
     <link rel="stylesheet" href="css/index.css">
     <!--底部下样式-->
-    <link rel="stylesheet" href="css/tail.css">
+    <link rel="stylesheet" href="css/foot.css">
     <!--站点图片-->
     <link href="img/jsjxh02.png" rel="shortcut icon">
     <title>计算机协会官网</title>
@@ -23,12 +23,13 @@
 </head>
 <body>
 
-    <!--****************导航-begin*****************-->
-    <div id="page1"></div>
-    <script>
-        $("#page1").load("head.html");
-    </script>
-    <!--****************导航-begin*****************-->
+<!--****************头部-begin*****************-->
+<div id="page1"></div>
+<script>
+    $("#page1").load("head.html");
+</script>
+<!--***************头部-end******************-->
+
 <!--****************轮播图-begin*****************-->
 <section id="lk_carousel" class="carousel slide" data-ride="carousel">
     <div class=" container ">
@@ -304,9 +305,10 @@
     <!--**************底部**************-->
     <div id="page2"></div>
     <script>
-        $("#page2").load("tail.html");
+        $("#page2").load("foot.html");
     </script>
     <!--**************底部**************-->
+</div>
 <script src="lib/jquery/jquery.js"></script>
 <!-- 引入所有的Bootstrap的JS插件 -->
 <script src="lib/bootstrap/js/bootstrap.js"></script>

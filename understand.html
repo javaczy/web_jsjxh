@@ -24,38 +24,187 @@
 <!--组织结构 -->
     <link rel="stylesheet" href="css/style.css">
     <!--底部下样式-->
-    <link rel="stylesheet" href="css/tail.css">
+    <link rel="stylesheet" href="css/foot.css">
 </head>
 <body>
+<!--****************头部-begin*****************-->
+<!--<div id="page1"></div>-->
+<!--<script>-->
+<!--    $("#page1").load("head.html");-->
+<!--</script>-->
+<!--***************头部-end******************-->
 
-<!--****************导航-begin*****************-->
-<div id="page1"></div>
-<script>
-    $("#page1").load("head.html");
-</script>
-<!--****************导航-end*****************-->
+
+<!--****************头部-begin*****************-->
+<header id="lk_header">
+    <div class="head">
+        <div class="container"><!--container:内容固定宽度居中显示
+    container-fluid:内容横向撑满整个浏览器窗口-->
+            <div class="row"><!--row：为行-->
+                <div class="head_left" >
+                    <div class="head_img">
+                        <a href="https://www.jxuspt.com/" title="计算机协会log"><img src="img/jsjxhlog1.png"  ></a>
+                    </div>
+                    <p class="head_left_l">计算机协会官网</p>
+                </div>
+                <div class="head_center hidden-xs hidden-sm hidden-md">
+                    <img src="img/mxlog.jpg"  >
+                </div>
+                <div class="head_right hidden-xs">
+                    <img src="img/login_icon.png">
+                    <a href="register.html">登录</a>
+                    <a href="logout.html">注销</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--***************头部-end******************-->
+<!--****************导航栏-begin*****************-->
+<section id="lk_navigation">
+    <nav class="navbar_dhl  navbar  navbar-default navbar-static-top ">
+        <div class=" nav_a container ">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#jsjxh_dht" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <li class="dropdown" style="list-style: none"><a class=" nav_b navbar-brand" href="index.html">官网首页</a></li>
+                </div>
+                <div class="collapse navbar-collapse " id="jsjxh_dht">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#"  class=" nav_b dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">了解概况<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="understand.html">协会简介</a></li>
+
+                                <li><a href="understand.html">协会文化</a></li>
+
+                                <li><a href="understand.html">协会制度</a></li>
+
+                                <li><a href="understand.html">发展历程</a></li>
+
+                                <li><a href="understand.html">组织结构</a></li>
+
+                                <li><a href="understand.html">办公环境</a></li>
+
+                                <li><a href="understand.html">办公地点</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class=" nav_b dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">协会风采<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="mien.html">指导老师</a></li>
+                                <li><a href="mien.html">优秀成员</a></li>
+                                <li><a href="mien.html">文化活动</a></li>
+                                <li><a href="mien.html">作品展示</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class=" nav_b dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">交流合作<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">学术交流</a></li>
+
+                                <li><a href="#">合作机构</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="nav_b dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">实习就业<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">实习机会</a></li>
+
+                                <li><a href="#">就业推荐</a></li>
+
+                                <li><a href="#">创业达人</a></li>
+
+                                <li><a  href="#">就业明星</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="nav_b dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">内务工作<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">开会签到</a></li>
+
+                                <li><a href="#">任务安排</a></li>
+
+                                <li><a href="#">项目经验</a></li>
+
+                                <li><a href="#">能力测评</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="nav_b dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">招贤纳士<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">报名流程</a></li>
+
+                                <li><a href="#">面试、笔试</a></li>
+
+                                <li><a href="#">部门介绍</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="nav_b dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">联系我们<span class="caret"></span></a>
+                            <ul class="dropdown-menu" style="">
+                                <li><a href="#">联系电话</a></li>
+
+                                <li><a  href="#">官方微信</a></li>
+
+                                <li><a  href="#">QQ</a></li>
+
+                                <li><a href="#">邮箱</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</section>
+<!--****************导航栏-end******************-->
+
+
+
 <!--****************背景图片-begin*****************-->
-<div id="background_image">
-    <img src="img/sy.jpg" class="img-responsive center-block" >
+<div id="background_image" >
+    <img src="img/sy.jpg" class="img-responsive center-block"  >
 </div>
 <!--****************背景图片-end*****************-->
 <!--****************吸顶-begin*********************-->
-    <div class="ceiling">
+<div class="floor">
         <ul class="col-lg-6">
-            <li><a href="#">协会简介</a></li>
-            <li><a href="#">协会文化</a></li>
-            <li><a href="#">协会制度</a></li>
-            <li><a href="#">发展历程</a></li>
-            <li><a href="#">组织结构</a></li>
-            <li><a href="#">办公环境</a></li>
-            <li><a href="#">办公地点</a></li>
+            <li><a href="#floor1">协会简介</a></li>
+            <li><a href="#floor2">协会文化</a></li>
+            <li><a href="#floor3">协会制度</a></li>
+            <li><a href="#floor4">发展历程</a></li>
+            <li><a href="#floor5">组织结构</a></li>
+            <li><a href="#floor6">办公环境</a></li>
+            <li><a href="#floor7">办公地点</a></li>
         </ul>
     </div>
+
+<!--<script src="js/index.js"></script>-->
 <!--****************吸顶-end***********************-->
 <!--****************内容-begin*********************-->
+
 <div class="container">
     <div class="row">
         <!--        协会简介-begin        -->
+        <div class=" banner" id="floor1 ">
         <div class="media">
             <div class="media-body">
                 <p>
@@ -67,9 +216,11 @@
                 <img src="img/xhjj.png" class="media-object" style="width:150px;height: 70px">
             </div>
         </div>
+        </div>
         <!--        协会简介-end        -->
         <!--        协会文化-begin         -->
-        <div class="media" style="background-color: #c7ddef">
+        <div class=" banner" id="floor2 ">
+        <div class="media" style="background-color: #c7ddef;margin-top: 20px;margin-bottom: 20px">
 
             <div class="media-body">
                 <h4 class="media-heading " style="font-family: 隶书; font-size: 30px ">协会文化：</h4>
@@ -78,8 +229,10 @@
                 <p style="font-family:华文行楷;font-size: 50px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自我管理&nbsp;&nbsp;	积极进取	&nbsp;&nbsp;团结协作	&nbsp;&nbsp; 开拓创新</p>
             </div>
         </div>
+        </div>
         <!--        协会文化-end           -->
         <!--        协会制度-begin         -->
+        <div  class=" banner" id="floor3">
         <div class="media" style="background-color: #b2dba1">
             <div class="media-body">
                 <p>
@@ -102,8 +255,10 @@
                 <h4 class="media-heading " style="font-family: 篆书; font-size: 30px ">协会制度</h4>
             </div>
         </div>
+        </div>
         <!--        协会制度-end            -->
         <!--        发展历程-begin            -->
+        <div class="banner" id="floor4 ">
         <div class="col-md-12"  style=" z-index: -99;padding-top:20px;padding-bottom: 20px">
             <div class="fzlc"  style="text-align: center;font-size:28px;font-family: 黑体"> 发展历程</div>
             <div class="VivaTimeline">
@@ -120,7 +275,7 @@
                                         <img class="events-object img-responsive img-rounded" src="img/dog01.png" />
                                     </div>
                                     <div class="events-desc">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        创始人：陈志颖 <br/>合伙人：王大嘉、赵尔希、段训平、胡智斌<br/>2019年12月18日18级软件项目组正式成立。
                                     </div>
                                 </div>
                                 <div class="row">
@@ -128,7 +283,7 @@
                                         <img class="events-object img-responsive img-rounded" src="img/dog02.png" />
                                     </div>
                                     <div class="events-desc">
-                                        Morbi at nisi vitae mauris pretium egestas. Morbi placerat risus ligula, nec placerat urna porta vel. Nullam sollicitudin orci quis odio eleifend, ut facilisis orci lobortis. Vivamus sed lobortis odio. Nam volutpat, leo a ullamcorper luctus, sapien libero auctor est, sed semper massa turpis sed quam. Mauris posuere, libero in ultricies dignissim, lacus purus egestas urna, nec semper lorem tellus non eros. Nam at bibendum libero. Curabitur a ante et orci cursus tincidunt. Vivamus dictum, libero et rhoncus congue, nulla erat mollis dui, vitae cursus dui justo quis velit. In a tellus arcu. Nam at lobortis nisl. Donec consequat placerat eros, quis elementum mauris sodales a. Maecenas id feugiat velit. Phasellus dictum eleifend varius. Cras nec orci turpis. Aenean ut turpis nibh.
+                                        创始人：陈志颖 <br/>合伙人：王大嘉、赵尔希、段训平、胡智斌<br/>2019年12月18日18级软件项目组正式成立。
                                     </div>
                                 </div>
                                 <div class="row">
@@ -136,7 +291,7 @@
                                         <img class="events-object img-responsive img-rounded" src="img/dog03.png" />
                                     </div>
                                     <div class="events-desc">
-                                        Cras condimentum, metus ut vehicula euismod, odio massa pulvinar neque, id gravida neque est et sem. Proin consequat id nibh quis molestie. Quisque vehicula purus id purus elementum facilisis. Phasellus sodales nibh quis neque rhoncus aliquet. Nunc eget ipsum efficitur, pretium arcu et, gravida purus. Phasellus tempor lacus ac enim pulvinar elementum. Integer aliquet justo lacinia nunc tempus vulputate.
+                                        创始人：陈志颖 <br/>合伙人：王大嘉、赵尔希、段训平、胡智斌<br/>2019年12月18日18级软件项目组正式成立。
                                     </div>
                                 </div>
                             </div>
@@ -207,8 +362,10 @@
                 </dl>
             </div>
         </div>
+        </div>
         <!--        发展历程-end                   -->
 <!--                组织结构-begin                 -->
+        <div class="banner" id="floor5 ">
         <div class="content">
         <figure class="org-chart cf" style="z-index: -99">
             <div class="fzlc"  style="text-align: center;font-size:28px;font-family: 华文彩云"> 组织结构</div>
@@ -463,9 +620,10 @@
             </ul>
         </figure>
         </div>
+        </div>
         <!--        组织结构-end                    -->
         <!--        办公环境-begin  -->
-
+        <div  class="banner" id="floor6 ">
         <div style="font-size:30px">办公环境</div>
         <div class="environment col-xs-12 col-sm-12 col-md-12 col-lg-6" style="padding-bottom: 5px;z-index: -99">
                     <img class="img" src="img/jsjxhjj03.jpg" alt="" style="width:500px;height: 250px;float: left">
@@ -483,30 +641,67 @@
             <img class="img" src="img/xsjl.png" alt="" style="width:500px;height: 250px;float: right">
             <br/>大四工作室
         </div>
-
+        </div>
         <!--        办公环境-end     -->
         <!--        办公地址-begin     -->
+        <div class="banner" id="floor7 ">
         <div style="font-size:30px;font-family: 华文楷体;float: right;padding-top: 20px">办公地址</div>
         <div id="background_amp" >
             <div style="padding-top: 20px;float: left;font-size: 16px" >计算机协会成员都有自己学习地方
                 <br/>大一19级自习室在A11-106<br/>大二18级办公室在A11-203<br/>大三17级工作室在创客大厦三楼</div>
             <img src="img/map.png" class="img-responsive center-block" style="padding-top: 40px">
         </div>
+        </div>
         <!--        办公地址-end     -->
         </div>
 </div>
+
 <!--****************内容-end*********************-->
-<!--**************尾部**************-->
-<div id="page2"></div>
-<script>
-    $("#page2").load("tail.html");
-</script>
+
+
 
 <!--**************尾部**************-->
+<div class="footer-floor2" style="background-color: #007aff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 30px;
 
+">
+    <div class="container" style=" text-align: center;">
+        <div class="row">
+            <p style="padding-top: 7px;
+    font-size: 12px;
+    color: #0f0f0f;
+">
+                网站信息:开发时间2020/03/06 版本 0.2
+            </p>
+            <p style="padding-top: 7px;
+    font-size: 12px;
+    color: #0f0f0f;
+">
+                学校地址：江西省南昌市湾里区先锋创客小镇 &nbsp;&nbsp;&nbsp;邮编：330041&nbsp;<br>
+                &nbsp;版权所有©计算机协会<font style="font-size: 9pt">&nbsp;
+                总访问量：
+                20200202
+            </font>
+            </p>
+        </div>
+    </div>
+</div>
 
+<!--**************尾部**************-->
+
+<!--**************尾部**************-->
+<!--<div id="page2"></div>-->
+<!--<script>-->
+<!--    $("#page2").load("foot.html");-->
+<!--</script>-->
+
+<!--**************尾部**************-->
+
+<!--<script src="js/jquery-1.11.0.min.js"></script>-->
 <script src="js/index.js"></script>
-<script src="lib/jquery/jquery.js"></script>
+<!--<script src="lib/jquery/jquery.js"></script>-->
 <!-- 引入所有的Bootstrap的JS插件 -->
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <!--发展历程-->
