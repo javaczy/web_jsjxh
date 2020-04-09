@@ -466,7 +466,7 @@
 }
 
 /*= common css to all effects =*/
-.single-member{width: 180px; margin: 30px 50px 0 50px; background-color: #fff; text-align: center; position: relative;}
+.single-member{width: 180px; margin: 20px 40px 0 40px; background-color: #fff; text-align: center; position: relative;}
 .member-image img{max-width: 100%; vertical-align: middle;}
 h3 {font-size: 20px; font-weight: normal; margin: 10px 0 0; text-transform: uppercase;}
 h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
@@ -506,7 +506,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 /******************部门人员******************/
 
 /*= effect-4 css =*/
-.effect-4{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px 5px 0 5px}
+.effect-4{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px -8px 0 -8px}
 .effect-4 h3{line-height: 20px;}
 .effect-4 .member-image{position: absolute; width: 100%; transition: 0.4s;}
 .effect-4 .member-image img{width: 100%;height: 150px;}
@@ -516,7 +516,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 /*= effect-4 css end =*/
 
 /*= effect-5 css =*/
-.effect-5{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px 5px 0 5px}
+.effect-5{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px -8px 0 -8px}
 .effect-5 .member-info {background-color: #fff; position: absolute; width: 100%; top: 0; left: 0; height: 82px; transition: 0.3s; z-index: 2;}
 .effect-5 .member-image{margin-top: 65px; float: left; width: 100%; position: relative; transition: 0.3s; z-index: 4;}
 .effect-5 .member-image img{width: 100%;height: 150px;}
@@ -527,7 +527,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 /*= effect-5 css end =*/
 
 /*= effect-6 css =*/
-.effect-6{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px 5px 0 5px}
+.effect-6{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px -8px 0 -8px}
 .effect-6 .member-info {background-color: #fff; position: absolute; width: 100%; top: 0; left: 0; height: 82px; transition: 0.3s; z-index: 2;}
 .effect-6 .member-info p{color: #0f0f0f}
 .effect-6 .member-image{margin-top: 65px; float: left; width: 100%; position: relative; transition: 0.3s; z-index: 4; overflow: hidden;}
@@ -537,7 +537,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 /*= effect-6 css end =*/
 
 /*= effect-7 css =*/
-.effect-7{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px 5px 0 5px}
+.effect-7{max-height: 215px; min-height: 215px; overflow: hidden;float: left;margin: 20px -8px 0 -8px}
 .effect-7 h3{line-height: 20px;}
 .effect-7 .member-image{position: absolute; bottom: 0; width: 100%; transition: 0.4s; z-index: 1;}
 .effect-7 .member-image img{width: 100%; transition: 0.4s; opacity: 1; height: 150px;}
@@ -548,7 +548,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 /*= effect-7 css end =*/
 
 /*= effect-8 css =*/
-.effect-8{max-height:215px; min-height: 215px; overflow: hidden;  perspective: 800px;float: left;margin: 20px 5px 0 5px}
+.effect-8{max-height:215px; min-height: 215px; overflow: hidden;  perspective: 800px;float: left;margin: 20px -8px 0 -8px}
 .effect-8 h3{line-height:20px;}
 .effect-8 .member-image{position: absolute; bottom: 0; width: 100%; transition: 0.4s; z-index: 1;}
 .effect-8 .member-image img{width: 100%; transition: 0.4s; height: 150px;}
@@ -558,7 +558,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 /*= effect-8 css end =*/
 
 /*= effect-9 css =*/
-.effect-9{max-height: 215px; min-height: 215px; overflow: hidden;  perspective: 800px;float: left;margin: 20px 5px 0 5px}
+.effect-9{max-height: 215px; min-height: 215px; overflow: hidden;  perspective: 800px;float: left;margin: 20px -8px 0 -8px}
 .effect-9 h3{line-height: 20px;}
 .effect-9 .member-image{position: absolute; bottom: 0; width: 100%; transition: 0.4s; z-index: 1;}
 .effect-9 .member-image img{width: 100%; transition: 0.4s; height: 150px;}
@@ -569,7 +569,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 
 
 /*= effect-1 css =*/
-.effect-1{max-height: 175px; min-height: 175px;  perspective: 800px;float: left;margin: 90px 5px 0 5px;}
+.effect-1{max-height: 175px; min-height: 175px;  perspective: 800px;float: left;margin: 90px -8px 0 -8px;}
 .effect-1{border-radius: 5px 5px 0 0; padding-bottom: 10px;}
 .effect-1 .member-image {border: 2px solid #fff; border-radius: 60px 0; display: inline-block; margin-top: -72px; overflow: hidden; transition: 0.3s;}
 .effect-1 .social-touch{background-color: #e13157; position: absolute; left: 0; bottom: 0; height: 3px; overflow: hidden; padding: 2px 0 0; width: 100%; transition: 0.3s;}
