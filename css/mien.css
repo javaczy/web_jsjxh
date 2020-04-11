@@ -7,10 +7,9 @@
 /*********************楼层特效*****************/
 
 .banner{width:100%;}
-.banner_one{background: darkmagenta;}
-/*.banner_one{ background-color: #f2f2f2}*/
-.banner_two{background: green;}
-.banner_three{background: gray;}
+/*.banner_one{background: darkmagenta;}*/
+/*.banner_two{background: green;}*/
+/*.banner_three{background: gray;}*/
 .banner_four{background: pink;}
 .banner_five{background: orchid;}
 .banner_six{background: orange;}
@@ -25,7 +24,7 @@
 .container .row .banner_one .banner_teacher{
     width: 100%;
     height:45px;
-    background-color: #8c8c8c;
+    background-color: #9d9d9d;
     text-align: center;
     line-height: 45px;
     font-family: 华文琥珀;
@@ -455,14 +454,44 @@
         display: none;
     }
 }
+
+/*                 更多老师            */
+#floor1 .content {
+    text-align: center;
+}
+#floor1 .content a{
+    margin-top: 25px;
+    display: inline-block;
+    /*height: 100%;*/
+    color: #3c3c3c;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    /*background-color: #adadad;*/
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px #9d9d9d solid;
+    /*border-radius:50%;*/
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+#floor1 .content a:hover{
+    border: 2px #9d9d9d solid;
+}
+/*                 更多老师           */
 /*********************指导老师*****************/
 /*********************优秀成员*****************/
 .container .row .banner_two .banner_teacher p{
     font-size: 25px;
     font-weight: bold;
-    padding: 5px;
+    padding: 30px 0 25px 45px ;
     line-height: 30px;
-
+    /*background-color: #ea0d04;*/
+    width: 100%;
 }
 
 /*= common css to all effects =*/
@@ -589,16 +618,199 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
 }
 /*= Media Query End
 =================== */
+
+/*                 更多成员            */
+#floor2 .content {
+    text-align: center;
+}
+#floor2 .content a{
+    margin-top: 40px;
+    display: inline-block;
+    color: #3c3c3c;
+    /*height: 100%;*/
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    /*background-color: #adadad;*/
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px #9d9d9d solid;
+    /*border-radius:50%;*/
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+#floor2 .content a:hover{
+    border: 2px #9d9d9d solid;
+}
+/*                 更多成员           */
 /*********************优秀成员*****************/
+
 /*********************文化活动****************/
-.container .row .banner_three .banner_teacher p{
+/*************左侧***********/
+.container .row .banner_three .banner_teacher02 p{
     font-size: 25px;
     font-weight: bold;
-    padding: 20px 40px 0 0 ;
+    /*padding: 30px 40px 30px 50px ;*/
+    padding: 30px 0 50px 45px ;
     line-height: 30px;
-    float: right;
-
+    /*background-color: #d43f3a;*/
 
 }
+#zSlider {
+    margin:0px auto;
+    overflow:hidden;
+}
+#picshow {
+    position:relative;
+}
+#picshow, #picshow_img {
+    width: 100% ;
+    overflow:hidden;
+    float:left;
+}
+#picshow_img li {
+    overflow:hidden;
+    float:left;
+    display:none;
+}
+#picshow, #picshow_img ul li img{
+     width: 100%;
+     height:385px;
+}
+/*************左侧下*************/
+#picshow_tx {
+    width: 95%;
+    margin-top: 320px;
+    position:absolute;
+    height:65px;
+    overflow:hidden;
+}
+#picshow_tx li {
+    background:url(../images/picshow_bg.png) repeat;
+    height:65px;
+    color:#fff;
+}
 
+#picshow_tx li a {
+    font-size: 15px;
+}
+#picshow_tx li a:hover {
+    text-decoration:underline;
+}
+#picshow_tx li h3 {
+    margin:0 0 5px 0;
+}
+#picshow_tx li p {
+    font-size: 13px;
+    overflow:hidden;
+}
+/*************右侧*************/
+#select_btn {
+    width:515px;
+    height:384px;
+    color:#111;
+    float:right;
+    display:inline;
+    background-color:#f0f0f0;
+
+}
+#select_btn li {
+    padding: 9px 11px 0px 9px;
+    width: 500px;
+    height: 64px;
+    border-bottom: 1px solid #474747;
+    border-top: 1px solid #474747;
+    cursor: pointer;
+    transition: all .7s ease 0s;
+}
+#select_btn li:hover {
+    background-color: #292929
+}
+#select_btn li a:hover {
+    color: aliceblue
+}
+#select_btn li.current {
+    background-color: #1A1A1A;
+}
+#select_btn li.current a{
+    color: aliceblue
+}
+#select_btn li.current:hover {
+    background-color: #292929;
+}
+#select_btn a {
+    color:#000;
+}
+#select_btn img {
+    padding:2px;
+    border:1px solid #ccc;
+    width:50px;
+    height:40px;
+    margin-right:10px;
+    float:left;
+    margin-left: 20px;
+}
+
+/*     右侧---内容     */
+#select_btn .select_text {
+    height:20px;
+    font:bold 13px/16px 'Microsoft YaHei';
+    overflow:hidden;
+    display:block;
+}
+#select_btn .select_text:hover {
+    text-decoration:underline;
+}
+/*           右侧--日期       */
+#select_btn .select_date {
+    height:23px;
+    line-height:23px;
+    overflow:hidden;
+    display: inline;
+}
+#select_btn .select_content {
+float: right;
+}
+#floor3 .content {
+    width: 100%;
+    height: 40px;
+    margin-top: 430px;
+    line-height: 40px;
+    text-align: center;
+    /*background-color:#b2dba1*/
+}
+#floor3 .content a{
+    display: inline-block;
+    height: 100%;
+    width: 120px;
+    /*background-color: #adadad;*/
+    color: #3c3c3c;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px #9d9d9d solid;
+    /*border-radius:50%;*/
+    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+#floor3 .content a:hover{
+    border: 2px #9d9d9d solid;
+}
 /*********************文化活动****************/
+/*********************作品展览****************/
+#floor4 p{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 0 50px 45px ;
+    line-height: 30px;
+    /*background-color: #d43f3a;*/
+}
+
+/*********************作品展览****************/
