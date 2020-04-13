@@ -10,7 +10,7 @@
 /*.banner_one{background: darkmagenta;}*/
 /*.banner_two{background: green;}*/
 /*.banner_three{background: gray;}*/
-.banner_four{background: pink;}
+/*.banner_four{background: pink;}*/
 .banner_five{background: orchid;}
 .banner_six{background: orange;}
 .floor{position: fixed;top: 200px;left: 50px;}
@@ -21,14 +21,14 @@
 .active{background: red;}
 /*********************楼层特效*****************/
 /*********************指导老师*****************/
-.container .row .banner_one .banner_teacher{
-    width: 100%;
-    height:45px;
-    background-color: #9d9d9d;
+.container .row .banner_one .banner_teacher p{
+    /*background-color: #aab2bd;*/
     text-align: center;
-    line-height: 45px;
-    font-family: 华文琥珀;
     font-size: 25px;
+    font-weight: bold;
+    padding: 25px 0 50px 45px ;
+    line-height: 30px;
+    width: 100%;
 }
 
 /*.container .row .banner_one .teacher_one{*/
@@ -472,12 +472,9 @@
     font-weight: bold;
     border: 1px #9d9d9d solid;
     /*border-radius:50%;*/
-    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+
     box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
+
 }
 #floor1 .content a:hover{
     border: 2px #9d9d9d solid;
@@ -636,12 +633,9 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
     font-weight: bold;
     border: 1px #9d9d9d solid;
     /*border-radius:50%;*/
-    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+
     box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
+
 }
 #floor2 .content a:hover{
     border: 2px #9d9d9d solid;
@@ -690,7 +684,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
     overflow:hidden;
 }
 #picshow_tx li {
-    background:url(../images/picshow_bg.png) repeat;
+    background:url(../img/picshow_bg.png) repeat;
     height:65px;
     color:#fff;
 }
@@ -716,6 +710,7 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
     float:right;
     display:inline;
     background-color:#f0f0f0;
+    margin-bottom: 40px;
 
 }
 #select_btn li {
@@ -726,6 +721,8 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
     border-top: 1px solid #474747;
     cursor: pointer;
     transition: all .7s ease 0s;
+
+
 }
 #select_btn li:hover {
     background-color: #292929
@@ -753,14 +750,15 @@ h5 {font-size: 16px; font-weight: 300; margin: 0 0 15px; line-height: 22px;}
     margin-right:10px;
     float:left;
     margin-left: 20px;
+
 }
 
 /*     右侧---内容     */
 #select_btn .select_text {
-    height:20px;
-    font:bold 13px/16px 'Microsoft YaHei';
-    overflow:hidden;
-    display:block;
+    height: 20px;
+    font: bold 13px/16px 'Microsoft YaHei';
+    overflow: hidden;
+    display: block;
 }
 #select_btn .select_text:hover {
     text-decoration:underline;
@@ -779,9 +777,11 @@ float: right;
     width: 100%;
     height: 40px;
     margin-top: 430px;
+    margin-bottom: 40px;
     line-height: 40px;
     text-align: center;
     /*background-color:#b2dba1*/
+
 }
 #floor3 .content a{
     display: inline-block;
@@ -793,24 +793,132 @@ float: right;
     font-weight: bold;
     border: 1px #9d9d9d solid;
     /*border-radius:50%;*/
-    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
     box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
 }
 #floor3 .content a:hover{
     border: 2px #9d9d9d solid;
 }
 /*********************文化活动****************/
 /*********************作品展览****************/
-#floor4 p{
+#floor4 .ryzl{
     font-size: 25px;
     font-weight: bold;
-    padding: 30px 0 50px 45px ;
+    padding: 0px 0 50px 45px ;
     line-height: 30px;
     /*background-color: #d43f3a;*/
 }
+#floor4 .top_ry{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 华文行楷;
+    background-color:#d5d5d5;
+}
+.box{
 
+    width: 100%;
+    margin: 20px auto 0px;
+    overflow: hidden;
+    background-color: #d5d5d5;
+}
+.box li{
+    width: 380px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    float:right;
+    position: relative;
+    background: #f6f6f6;
+}
+.box .left_img{
+    width: 350px;
+    height: 420px;
+    margin: 10px;
+    float:left;
+    position: relative;
+    background: #f6f6f6;
+}
+.top{
+    position: absolute;
+    z-index:0;
+    height: 5px;
+    width: 0px;
+    top: 0px;
+    left: 0;
+}
+.bottom{
+    position: absolute;
+    z-index:0;
+    height: 5px;
+    width: 0%;
+    bottom: 0px;
+    right: 0px;
+}
+.left{
+    height: 0;
+    position: absolute;
+    left: 0px;
+    width: 5px;
+}
+.right{
+    height: 0;
+    position: absolute;
+    right: 0px;
+    width: 5px;
+    bottom: 0px;
+}
+.box li img{
+    width: 370px;
+    height: 190px;
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    left: 5px;
+}
+.box .left_img  img{
+    width: 340px;
+    height: 410px;
+    /*position: absolute;*/
+    z-index: 0;
+}
+.box li p{
+    position: absolute;
+    z-index: 0;
+    background: rgba(2,179,191,0.5);
+    height: 0px;
+    line-height: 30px;
+    width: 370px;
+    /*width: 97.6%;*/
+    text-align: center;
+    color: #fff;
+    bottom: 5px;
+    left: 5px;
+}
+#floor4 .content {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    line-height: 40px;
+    text-align: center;
+    /*background-color:#b2dba1;*/
+    margin-bottom: 50px;
+}
+#floor4 .content a{
+    display: inline-block;
+    height: 100%;
+    width: 120px;
+    /*background-color: #adadad;*/
+    color: #3c3c3c;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px #9d9d9d solid;
+    /*border-radius:50%;*/
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+#floor4 .content a:hover{
+    border: 2px #9d9d9d solid;
+}
 /*********************作品展览****************/
